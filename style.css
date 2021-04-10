@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width:  1000px;
+	font-family: "Montserrat", serif;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: normal;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 73px;
+	padding-bottom: 104px;
+	background-image: url('img/andrew-neel-fGvXxVxmTi8-unsplash 1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+}
+
+.article-block {
+	height: 1136px;
+	padding-top: 105px;
+	margin-bottom: 128px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 70px;
+
+}
+
+.accent {
+	color: #F66C41;
+}
+
+.header-comment {
+	color: #BCBBBB;
+}
+
+.crossed-out {
+	text-decoration: line-through;
+}
+
+.container > h2 {
+	margin: 90px 0;
+}
+
+.italic-bold {
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+li {
+	margin-left: 55px;
+}
+
+li:before {
+	content: "\2022";
+	position: absolute;
+	left: 20px;
+}
+
+h3 {
+	margin: 0;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-size: 70px;
+	font-weight: 500;
+	text-transform: uppercase; 
+}
+
+.read-more {
+	color: #F66C41;
+	margin: 0;
+	margin-top: 90px;
+/*	margin-bottom: 104px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
